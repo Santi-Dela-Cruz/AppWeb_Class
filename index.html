@@ -1,12 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/9fcf322172.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SPA</title>
+        <link rel="stylesheet" href="framework.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="sdc-container--fluid">
+            <!--Menu Bar-->
+            <section
+                class="sdc-row sdc-flex sdc-content--between sdc-align-items--center menu-section sdc-bg-primary">
+                <div class="sdc-col sdc-col--6">
+                    <ul class="sdc-navbar__menu sdc-flex sdc-gap-5">
+                        <li><a class="sdc-navbar__link font-menu"
+                                href="#">PROMOCIONES</a></li>
+                        <li><a class="sdc-navbar__link font-menu"
+                                href="#">FOTOS</a></li>
+                        <li><a class="sdc-navbar__link font-menu"
+                                href="#">SERVICIOS</a></li>
+                        <li><a class="sdc-navbar__link font-menu"
+                                href="#">MAPA</a></li>
+                        <li><a class="sdc-navbar__link font-menu"
+                                href="#">CONTACTO</a></li>
+                    </ul>
+                </div>
+
+                <div
+                    class="sdc-col-auto sdc-flex sdc-content--end align-items--center sdc-gap-3 sdc-nowrap font-mini">
+                    <div
+                        class="sdc-flex align-items--center sdc-gap-2 sdc-nowrap font-mini sdc-text-color--secondary">
+                        <img src="images/user.png" alt="user icon">
+                        <span>Mi Cuenta</span>
+                    </div>
+
+                    <div
+                        class="sdc-flex align-items--center sdc-gap-2 sdc-nowrap sdc-text-color--secondary">
+                        <span>ES</span>
+                        <img src="images/flag.png" alt="flag icon">
+                    </div>
+                    <img src="images/arrow.png" alt="arrow icon">
+
+                </div>
+
+            </section>
+
+            <!--SPA - Main-->
+            <section class="sdc-row main-section">
+
+                <div
+                    class="main-title-section sdc-flex sdc-flex-column sdc-gap-5">
+                    <h1 class="sdc-display">SPA - Todos</h1>
+                    <p class="sdc-h2">Regálate un momento de paz y <br>
+                        consiente a tu piel en el mejor lugar</p>
+                </div>
+            </section>
+
+            <!--SPA - Reservas-->
+            <section class="sdc-row reservas-section">
+                <div
+                    class="sdc-col-12 sdc-flex sdc-content--center sdc-gap-5 sdc-align-items--center font-menu sdc-text-uppercase">
+                    <div>
+                        <label for="reserva">Reserva tu cita: </label>
+                        <input class="sdc-input" type="text">
+                    </div>
+
+                    <div>
+                        <label for="codigoPromocional">Código promocional:
+                        </label>
+                        <input class="sdc-input" type="text"
+                            placeholder="CODIGO">
+                    </div>
+                </div>
+            </section>
+
+            <!--SPA - Services-->
+            <section
+                class="sdc-row services-section sdc-content--center sdc-gap-7 sdc-align-items--start text-center">
+
+                <div class="card-service">
+                    <div
+                        class="sdc-h2  sdc-flex align-items--center sdc-content--center sdc-text-color--white sdc-square-semiborder">Masaje
+                        de pies</div>
+                    <img src="images/pies.png" alt="masaje de pies">
+                    <p class="font-normal">Esta es una descripcion de la opción
+                        en <br>
+                        cuestión .....</p>
+                    <div
+                        class="sdc-flex sdc-content--between sdc-px-2 sdc-py-3">
+                        <span class="sdc-h2">$65</span>
+                        <button
+                            class="sdc-btn sdc-btn--small sdc-text-uppercase">Reservar</button>
+                    </div>
+                </div>
+
+                <div class="card-service">
+                    <div
+                        class="sdc-h2  sdc-flex align-items--center sdc-content--center sdc-text-color--white sdc-square-semiborder">Masaje
+                        de pies</div>
+                    <img src="images/relajante.png" alt="masaje de pies">
+                    <p class="font-normal">Esta es una descripcion de la opción
+                        en <br>
+                        cuestión .....</p>
+                    <div
+                        class="sdc-flex sdc-content--between sdc-px-2 sdc-py-3 ">
+                        <span class="sdc-h2">$65</span>
+                        <button
+                            class="sdc-btn sdc-btn--small sdc-text-uppercase">Reservar</button>
+                    </div>
+                </div>
+
+                <div class="card-service">
+                    <div
+                        class="sdc-h2  sdc-flex align-items--center sdc-content--center sdc-text-color--white sdc-square-semiborder">Masaje
+                        de pies</div>
+                    <img src="images/bambu.png" alt="masaje de pies">
+                    <p class="font-normal">Esta es una descripcion de la opción
+                        en <br>
+                        cuestión .....</p>
+                    <div
+                        class="sdc-flex sdc-content--between sdc-px-2 sdc-py-3 ">
+                        <span class="sdc-h2">$65</span>
+                        <button
+                            class="sdc-btn sdc-btn--small sdc-text-uppercase">Reservar</button>
+                    </div>
+                </div>
+            </section>
+
+            <!--SPA - Planes-->
+            <section class="sdc-row sdc-container--fluid sdc-flex-column sdc-align-items--center sdc-gap-6 plans-section">
+                <h1 class="sdc-row sdc-h2 ">Haste socio y prueba nuestros
+                    beneficios</h1>
+
+                    
+                <div class="sdc-row sdc-flex sdc-content--center sdc-gap-7 sdc-align-items--start">
+                    <div class="card sdc-flex sdc-flex-column sdc-gap-3 sdc-align-items--center">
+                        <div class="plan-icon sdc-flex sdc-content--center sdc-align-items--center">
+                            <img src="images/gold.png" alt="gold icon plan">
+                        </div>
+                        <h2 class="sdc-h2">GOLD</h2>
+                        <button class="sdc-btn sdc-btn-large sdc-text-uppercase" type="button">Ver condiciones</button>
+                        <ul class="font-normal">
+                            <li class="sdc-link">Gimnasio</li>
+                            <li>Piscina</li>
+                            <li>Todos los tratamientos</li>
+                        </ul>
+                    </div>
+
+                    <div class="card sdc-flex sdc-flex-column sdc-gap-3 sdc-align-items--center">
+                        <div class="plan-icon sdc-flex sdc-content--center sdc-align-items--center">
+                            <img src="images/premium.png" alt="premium icon plan">
+                        </div>
+                        <h2 class="sdc-h2">PREMIUM</h2>
+                        <button class="sdc-btn sdc-btn-large sdc-text-uppercase" type="button">Ver condiciones</button>
+                        <ul class="font-normal">
+                            <li>Gimnasio</li>
+                            <li>Todos los tratamientos</li>
+                        </ul>
+                    </div>
+
+                    <div class="card sdc-flex sdc-flex-column sdc-gap-3 sdc-align-items--center">
+                        <div class="plan-icon sdc-flex sdc-content--center sdc-align-items--center">
+                            <img src="images/plate.png" alt="plate icon plan">
+                        </div>
+                        <h2 class="sdc-h2">PLATE</h2>
+                        <button class="sdc-btn sdc-btn-large sdc-text-uppercase" type="button">Ver condiciones</button>
+                        <ul class="font-normal">
+                            <li>Todos los tratamientos</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer-section sdc-flex sdc-content--between sdc-align-items--center">
+            <div class="sdc-col-8 sdc-flex sdc-align-items--between">
+                <ul class="sdc-navbar__menu sdc-flex sdc-gap-extra sdc-text-uppercase ">
+                    <li><a class="sdc-footer__link font-menu" href="#">Politicas de cookies</a></li>
+                    <li><a class="sdc-footer__link font-menu" href="#">Aviso Legal</a></li>
+                    <li><a class="sdc-footer__link font-menu" href="#">Proteccion de datos</a></li>
+                    <li><a class="sdc-footer__link font-menu" href="#">Mapa del sitio</a></li>
+                </ul>
+            </div>
+
+            <div class="sdc-col-4 sdc-flex sdc-gap-3 sdc-content--end sdc-align-items--center">
+                <span class=" color-font-menu font-menu sdc-text-uppercase">Siguenos</span>
+                <img src="images/rs_facebook.png" alt="facebook icon">
+                <img src="images/rs_twiter.png" alt="twitter icon">
+                <img src="images/rs_youtube.png" alt="youtube icon">
+            </div>
+        </footer>
+
+    </body>
 </html>

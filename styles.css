@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root{
+    --font-inter: 'Inter', sans-serif;
+    --color-primary: #A3A656;
+    --color-secondary: #384001;
+    --color-tertiary: #FFEFDF;
+    --color-quaternary: #F2F6F6;
+    --color-palceholder: #9E9A9A;
+}
+
+.menu-section {
+    padding-left: 70px;
+    padding-right: 10px;
+    height: 70px;
+}
+
+.font-menu {
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 400; 
+    text-transform: uppercase;
+}
+
+.color-font-menu {
+    color: var(--color-primary);
+}
+
+.font-mini {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    font-weight: 400; 
+}
+
+.font-normal {
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+
+.font-placeholder {
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 400; 
+    color: var(--color-palceholder);
+}
+
+.main-section { background-image: url(images/main.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 667px; 
+}
+
+.main-title-section {
+    padding-top: 120px;
+    padding-left: 150px;
+    max-width: 700px;
+}
+
+.reservas-section {
+    background-color: var(--color-quaternary);
+    height: 100px;
+}
+
+.services-section {
+    padding: 100px 0 50px 0;
+}
+
+.card-service img {
+    width: 100%;
+    height: auto;
+}
+
+.plan-icon {
+    border-radius: 50%;
+    border: 11px solid var(--color-secondary);
+    height: 255px;
+    width: 255px;
+    background-color: #fff;
+}
+
+.plans-section {
+    background-color: var(--color-quaternary);
+    height: 770px;
+    padding-top: 50px;
+    
+}
+
+.footer-section {
+    background-color: var(--color-secondary);
+    height: 97px;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+
