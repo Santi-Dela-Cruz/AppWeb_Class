@@ -16,10 +16,11 @@
 
   --sdc-font: 'Inter', sans-serif;
   --sdc-display-font: 'Romanesco', cursive;
+  --sdc-vernada-font: Verdana, Geneva, Tahoma, sans-serif;
 
   --sdc-space-1: 4px;
   --sdc-space-2: 8px;
-  --sdc-space-3: 16px;
+  --sdc-space-3: 12px;
   --sdc-space-4: 24px;
   --sdc-space-5: 32px;
   --sdc-space-6: 80px;
@@ -376,12 +377,19 @@ h1, .sdc-h1 {
   font-size: 48px;
   line-height: 1.1;
   font-weight: 700;
+  padding: 30px 0px;
+  font-family: var(--sdc-vernada-font);
 }
 
 h2, .sdc-h2 {
   font-size: 32px;
   line-height: 1.15;
   font-weight: 600;
+  font-family: var(--sdc-vernada-font);
+}
+
+p, .sdc-p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3, .sdc-h3 {
@@ -435,18 +443,18 @@ h3, .sdc-h3 {
 
 .sdc-btn-large,
 .sdc-btn--large {
-  background: var(--sdc-primary);
+  background: hsl(40, 97%, 50%);
   color: var(--sdc-on-dark);
-  height: 60px;
-  width: 280px;
-  font-family: var(--sdc-font);
+  height: 40px;
+  width: 350px;
+  font-family: var(--sdc-vernada-font);
   font-size: 14px;
   font-weight: 600;
 }
 
 .sdc-btn-large:hover,
 .sdc-btn--large:hover {
-  background: var(--sdc-secondary);
+  background: vhsl(40, 97%, 50%);
 }
 
 .sdc-btn-outline,
@@ -522,11 +530,13 @@ h3, .sdc-h3 {
 .sdc-input,
 .sdc-textarea {
   border: 1px solid var(--sdc-surface-2);
-  border-radius: var(--sdc-radius-md);
+  border-radius: 25px;
   padding: 0.75rem 0.9rem;
   background: var(--sdc-surface);
   color: var(--sdc-text);
   transition: border-color var(--sdc-transition), box-shadow var(--sdc-transition);
+  height: 40px;
+  width: 350px;
 }
 
 .sdc-input:focus,
@@ -534,6 +544,7 @@ h3, .sdc-h3 {
   outline: none;
   border-color: var(--sdc-primary);
   box-shadow: 0 0 0 3px rgba(163, 166, 86, 0.15);
+  margin: 10px 0px;
 }
 
 .sdc-textarea {
