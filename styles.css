@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'Inter';
-  src: url('fonts/Inter.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Romanesco&display=swap');
 
 
 :root{
